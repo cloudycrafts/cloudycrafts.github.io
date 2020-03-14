@@ -56,6 +56,8 @@ figure,
 main {
   /* 1 */
   display: block;
+  font-style: italic;
+  font-size: .95em;
 }
 
 /**
@@ -1355,22 +1357,16 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Image Styles - - - - - - - - - - */
 
 .post-image figure {
-     position: relative;
+  position: relative;
 }
 
 .post-image figcaption {
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(0,0,0,0.4);
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  font-weight: 700;
-  font-size: 12px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  position: absolute;
-  bottom: 4px;
-  right: 10%
+  display: block; 
+  text-overflow: ellipsis; 
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin-top: -15px; 
+  text-align: center;
 }
 
 .post-image img {
@@ -1380,9 +1376,9 @@ a.newer-posts:hover {
   margin-top: 25px;
   margin-bottom: 25px;
   max-width: 750px;
+  width: 70%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {

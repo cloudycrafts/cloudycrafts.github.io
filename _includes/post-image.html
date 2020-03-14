@@ -1,6 +1,24 @@
+{% if include.path %}
+
 <div class="post-image">
   <figure>
-    <a href="{{ include.path }}" target="_blank"><img src="{{ include.path }}" alt="{{ include.caption }}"></a>
+    <a href="{{ site.url }}{{ include.path | relative_url }}" target="_blank"><img src="{{ site.url }}{{ include.path }}" alt="{{ include.caption }}"></a>
     <figcaption>{{ include.caption }}</figcaption>
   </figure>
 </div>
+
+{% elsif include.image-files %}
+{% assign image-array = include.image-files | split: ";" %}
+{% for item in image-array %}
+  {% assign item-elements = item | rstrip | strip | split: "," %}
+  {% assign image-path = item-elements[0] | rstrip | strip %}
+  {% assign image-caption = item-elements[1] | rstrip | strip %}
+<div class="post-image">
+  <figure>
+    <a href="{{ site.url }}{{ image-path | relative_url }}" target="_blank"><img src="{{ site.url }}{{ image-path }}" alt="{{ image-caption }}"></a>
+    <figcaption>{{ image-caption }}</figcaption>
+  </figure>
+</div>
+{% endfor %}
+{% else %}
+{% endif %}

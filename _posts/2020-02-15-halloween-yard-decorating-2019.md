@@ -18,9 +18,9 @@ Following the instructions from the Tested video, I bought a bag of cheap bones 
 
 For the second skull, I used plumber’s putty to hold the mandible at a skewed angle like in the video. 
 
-{% include post-image.html path="/assets/img/posts/halloween-yard-2019/halloween-yard-2019-2-1200px.jpg" caption="Skull #2 w/ dangling mandible" %}
-
-{% include post-image.html path="/assets/img/posts/halloween-yard-2019/halloween-yard-2019-3-1200px.jpg" caption="Skull #2 alternate angle" %}
+{% include post-image.html image-files="
+	/assets/img/posts/halloween-yard-2019/halloween-yard-2019-2-1200px.jpg,Skull #2 w/ dangling mandible;
+	/assets/img/posts/halloween-yard-2019/halloween-yard-2019-3-1200px.jpg,Skull #2 alternate angle"%}
 
 Once dried, I dry brushed earthy tones and some bright reds on the bones until they looked good enough. It was my first attempt at painting anything seriously, but dispelled how inaccessible painting felt to me before.
 
@@ -31,10 +31,10 @@ To create a small cemetery in the front yard, I created some crosses and gravest
 
 I also dug a shallow grave for a full-size skeleton, to look like a grave robbing. Unfortunately, I didn’t have enough time to ‘corpse’ the full-size skeleton like the bones before Halloween night.
 
-{% include post-image.html path="/assets/img/posts/halloween-yard-2019/halloween-yard-2019-4-1200px.jpg" caption="Shallow grave with marker" %}
+{% include post-image.html image-files="
+	/assets/img/posts/halloween-yard-2019/halloween-yard-2019-4-1200px.jpg,Shallow grave with marker;
+	/assets/img/posts/halloween-yard-2019/halloween-yard-2019-5-1200px.jpg,Finished shallow grave;
+	/assets/img/posts/halloween-yard-2019/halloween-yard-2019-6-1200px.jpg,Finished skull and gravestone"%}
 
-{% include post-image.html path="/assets/img/posts/halloween-yard-2019/halloween-yard-2019-5-1200px.jpg" caption="Finished shallow grave" %}
-
-{% include post-image.html path="/assets/img/posts/halloween-yard-2019/halloween-yard-2019-6-1200px.jpg" caption="Finished skull and gravestone" %}
 
 Overall, the decorations weren’t as extensive as I would have wanted, and there’s still quite a few unfinished bones and headstones, but it was the first time I’ve decorated my yard with more than store-bought decorations, which feels good.
