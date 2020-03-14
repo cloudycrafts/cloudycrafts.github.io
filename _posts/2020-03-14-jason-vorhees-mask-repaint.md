@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jason Vorhees Mask Repaint
-date: 2020-02-22
+date: 2020-03-14
 description: A quick post about the small graveyard I made in my front yard for Halloween.
 img: /cover-images/jason-vorhees-mask-repaint.jpg
 tags: [halloween,painting]
